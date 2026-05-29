@@ -22,5 +22,6 @@ defmodule AshGraphql.Test.SimpleDomain do
 
   resources do
     resource(AshGraphql.Test.SimpleResource)
+    resource(AshGraphql.Test.Issue223EmptyParent) # Addition of the empty embed resource to the domain.
   end
 end
